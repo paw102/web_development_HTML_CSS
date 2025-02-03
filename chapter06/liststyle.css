@@ -1,0 +1,25 @@
+ul {
+  list-style: "ㅇ";
+}
+
+/* 비어있는 원 : circle
+차있는 원 : disc -> 얘는 default 값
+차있는 사각형 : square */
+
+ol {
+  list-style: lower-greek;
+}
+
+/*  1,2,3 : decimal -> 얘는 default 값
+    a,b,c : lower-alpha
+    A,B,C : upper-alpha
+    i, ii, iii : lower-roman
+    I, II, III : upper-roman 
+    α, β, γ : lower-greek
+*/
+
+ul > li:first-child {
+  list-style: "ㅇㅅㅇ";
+}
+
+/* 목록 중에서 특정한 것만 지정하여 list-style 을 편집하는 것도 가능 */
