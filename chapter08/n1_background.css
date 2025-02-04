@@ -1,0 +1,17 @@
+/* 1. 가로 세로 모두 200px 인 박스 모델 안에 모나리자 이미지를 들어가게 한 후 모나리자의 얼굴이 가운데에 보이도록 위치 조절 */
+.outer {
+  width: 200px;
+  height: 200px;
+  background-color: #5f5f5f;
+  overflow: hidden;
+  /* 원형 관련 */
+  border-radius: 50%;
+}
+
+/* 2. 박스 모델을 원형으로 지정 -> 주로 프로필 사진 형태로 사용하는 편  */
+.with-bg {
+  /* 모나리자 이미지 관련 */
+  height: 100%;
+  background-image: url(./mona-lisa.png);
+  background-size: cover;
+}

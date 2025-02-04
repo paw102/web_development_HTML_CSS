@@ -1,0 +1,17 @@
+p {
+  background-color: lightblue;
+  margin: 24px;
+  padding: 24px;
+}
+
+/* 태그 + 클래스 선택자 */
+p.special {
+  /* margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 200px;
+  
+  padding-top: 400px;
+  padding-bottom: 150px; */
+
+  margin: 0;
+}
