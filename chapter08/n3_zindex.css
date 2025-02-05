@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+div {
+  width: 300px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  background-color: lightgray;
+  box-shadow: 10px 10px 0 black ;
+  position: fixed;
+  top: calc(50% - 40px);
+  left: calc(50% - 150px);
+}
+
+/* calc(요소1 - 요소2) */
